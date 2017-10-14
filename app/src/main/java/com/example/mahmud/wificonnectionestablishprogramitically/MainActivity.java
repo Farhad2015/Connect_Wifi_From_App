@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         buttonConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String networkSSID = "NET-G5 LIMITED";
-                String networkPass = "netgen55";
+                String networkSSID = "DOT NET LIMITED";
+                String networkPass = "ssid_pass";
 
                 WifiConfiguration wifiConfig = new WifiConfiguration();
                 wifiConfig.SSID = String.format("\"%s\"", networkSSID);
